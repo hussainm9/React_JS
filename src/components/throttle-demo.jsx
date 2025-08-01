@@ -8,7 +8,7 @@ import { useState, useEffect, useRef } from "react";
   }
 
   useEffect(()=>{
-    setInterval(time(), 1000);
+    setInterval(time, 1000);
   },[])
 
   return (
