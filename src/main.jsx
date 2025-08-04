@@ -5,6 +5,7 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import App from './App.jsx'
 import { EMICalculator } from './components/emi-calculator/emi-calculator.jsx';
 import Throttle from './components/throttle-demo.jsx';
+import StopWatch from './components/stop-watch/stop-watch.jsx';
 createRoot(document.getElementById('root')).render(
-    <Throttle />
+    <StopWatch />
 )
