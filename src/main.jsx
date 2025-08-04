@@ -8,6 +8,7 @@ import Throttle from './components/throttle-demo/throttle-demo.jsx'
 import StopWatch from './components/stop-watch/stop-watch.jsx';
 import { FormDemo } from './components/form-demo/form-demo.jsx';
 import { FormFormik } from './components/form-demo/form-formik.jsx';
+import { FormikValidation } from './components/form-demo/formik-validation.jsx';
 createRoot(document.getElementById('root')).render(
-    <FormFormik/>
+    <FormikValidation/>
 )
