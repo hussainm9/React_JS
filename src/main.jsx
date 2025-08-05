@@ -9,6 +9,7 @@ import StopWatch from './components/stop-watch/stop-watch.jsx';
 import { FormDemo } from './components/form-demo/form-demo.jsx';
 import { FormFormik } from './components/form-demo/form-formik.jsx';
 import { FormikValidation } from './components/form-demo/formik-validation.jsx';
+import FormikYup from './components/form-demo/formik-yup.jsx';
 createRoot(document.getElementById('root')).render(
-    <FormikValidation/>
+<FormikYup/>
 )
