@@ -10,6 +10,7 @@ import { FormDemo } from './components/form-demo/form-demo.jsx';
 import { FormFormik } from './components/form-demo/form-formik.jsx';
 import { FormikValidation } from './components/form-demo/formik-validation.jsx';
 import FormikYup from './components/form-demo/formik-yup.jsx';
+import { FormikComponents } from './components/form-demo/formik-components.jsx';
 createRoot(document.getElementById('root')).render(
-<FormikYup/>
+<FormikComponents/>
 )
