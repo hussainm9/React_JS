@@ -1,0 +1,58 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "admin_id": "john_wick",
+      "password": "John@123"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "user_id": "david_warner",
+      "password": "David@123",
+      "email": "david_warner@outlook.com"
+    },
+    {
+      "id": "2",
+      "user_id": "james_sario",
+      "password": "James@123",
+      "email": "james_sario@outlook.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "category_id": 1,
+      "category_name": "java"
+    },
+    {
+      "id": "2",
+      "category_id": 2,
+      "category_name": "python"
+    },
+    {
+      "id": "3",
+      "category_id": 3,
+      "category_name": "javascript"
+    },
+    {
+      "id": "4",
+      "category_id": 4,
+      "category_name": "c#"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "Nit sample",
+      "description": "software tutorials",
+      "url": "https://www.youtube.com/embed/x7ULDYs4X84",
+      "likes": 299,
+      "dislikes": 1,
+      "views": 2949,
+      "comments": "Thank You",
+      "category_id": 1
+    }
+  ]
+}

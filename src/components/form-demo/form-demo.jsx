@@ -4,8 +4,13 @@ export function FormDemo(){
     const [userDetails,setUserDetails] = useState({UserName:'',Mobile:'',City:''})
     function handleSubmit(e){
         e.preventDefault()
-        alert('form submitted')
-        console.log(userDetails)
+        const data = new FormData(e.target)
+        console.log( data,'data')
+        console.log( data.entries,'data')
+        for(let key of data){
+            console.log(key)
+        }
+        
 
     }
     function handleNameChange(e){

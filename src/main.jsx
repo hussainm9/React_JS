@@ -11,6 +11,7 @@ import { FormFormik } from './components/form-demo/form-formik.jsx';
 import { FormikValidation } from './components/form-demo/formik-validation.jsx';
 import FormikYup from './components/form-demo/formik-yup.jsx';
 import { FormikComponents } from './components/form-demo/formik-components.jsx';
+import { VideoTutorialIndex } from './video-tutorials/video-tutorial-index.jsx';
 createRoot(document.getElementById('root')).render(
-<FormikComponents/>
+<VideoTutorialIndex/>
 )
